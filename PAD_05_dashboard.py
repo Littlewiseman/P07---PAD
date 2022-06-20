@@ -234,6 +234,7 @@ with st.sidebar:
         ligne = np.random.randint(0, high=len(df_dash_desc), size=1)[0] 
         ecrire_ligne(ligne)
 
+
     # Menu 
     selected = option_menu("Choisissez votre thème", ['Explication de la décision',
                                                    'Le client', 
